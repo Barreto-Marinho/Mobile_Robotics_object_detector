@@ -13,3 +13,4 @@ I = insertObjectAnnotation(I,'rectangle',bboxes,scores);
 figure
 imshow(I)
 
+
