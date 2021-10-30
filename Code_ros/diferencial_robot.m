@@ -1,4 +1,4 @@
-classdef diferencial_robot < dynamicprops
+classdef diferencial_robot < matlab.System
     %diferencial_robot 
     %   
 

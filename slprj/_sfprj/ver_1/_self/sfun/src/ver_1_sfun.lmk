@@ -1,0 +1,32 @@
+CC     = "C:\Program Files\MATLAB\R2021a\sys\lcc64\lcc64\bin\lcc64.exe"
+LD     = "C:\Program Files\MATLAB\R2021a\sys\lcc64\lcc64\bin\lcclnk64.exe"
+LIBCMD = "C:\Program Files\MATLAB\R2021a\sys\lcc64\lcc64\bin\lcclib64.exe"
+CFLAGS = -dll -noregistrylookup  -c -Zp8 -DLCC_WIN64 -DMATLAB_MEX_FILE -nodeclspec 
+LDFLAGS = -s -dll -L"C:\Program Files\MATLAB\R2021a\sys\lcc64\lcc64\lib64" -entry LibMain -map sfun.map 
+LIBFLAGS = 
+
+OBJECTS = \
+	"ver_1_sfun.obj"\
+	"c4_ver_1.obj"\
+	"ver_1_sfun_registry.obj"\
+	"half_type.obj"\
+	"lccstub.obj"\
+	"c_mexapi_version.obj"\
+
+INCLUDE_PATH= -I"C:\Program Files\MATLAB\R2021a\extern\include"  -I"C:\Program Files\MATLAB\R2021a\simulink\include"  -I"C:\Program Files\MATLAB\R2021a\simulink\include\sf_runtime"  -I"C:\Program Files\MATLAB\R2021a\stateflow\c\mex\include"  -I"C:\Program Files\MATLAB\R2021a\rtw\c\src"  -I"D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src"  -I"D:\documentos\8tvo_semestre\robotica_movil\Proyecto\proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src"  -I"D:\documentos\8tvo_semestre\robotica_movil\Proyecto\proyecto_robotica_movil"  -I"D:\documentos\8tvo_semestre\robotica_movil\Proyecto\proyecto_robotica_movil\Code_ros"  -I"C:\Program Files\MATLAB\R2021a\sys\lcc64\lcc64\include64" 
+ 
+
+ver_1_sfun.mexw64 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o ver_1_sfun.mexw64 @ver_1_sfun.lmko
+ver_1_sfun.obj :	"D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\ver_1_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\ver_1_sfun.c"
+c4_ver_1.obj :	"D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\c4_ver_1.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\c4_ver_1.c"
+ver_1_sfun_registry.obj :	"D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\ver_1_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\ver_1_sfun_registry.c"
+half_type.obj :	"D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\half_type.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\half_type.c"
+lccstub.obj :	"C:\Program Files\MATLAB\R2021a\sys\lcc64\lcc64\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\Program Files\MATLAB\R2021a\sys\lcc64\lcc64\mex\lccstub.c"
+c_mexapi_version.obj :	"C:\Program Files\MATLAB\R2021a\extern\version\c_mexapi_version.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\Program Files\MATLAB\R2021a\extern\version\c_mexapi_version.c"
