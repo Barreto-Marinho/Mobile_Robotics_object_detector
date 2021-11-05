@@ -36,17 +36,24 @@ function [depth,Xm,Xc,Yc]= calculo_depth_simulink(bboxes,Im_Depth)
         %centroide = [(stats.Centroid(:,1)'*stats.Area(:))/sum(stats.Area(:)) (stats.Centroid(:,2)'*stats.Area(:))/sum(stats.Area(:))];
         centroide = [Centroid_x/acum_area  Centroid_y/acum_area];
         [puntos_y,puntos_x] = ind2sub(size(Im_Depth_box),find(BW));
+        
+        if(~isnan(centroide(1)) && ~isnan(centroide(2)))
+        
+            [~,posicion]= min((puntos_x -centroide(1)).^2 + (puntos_y -centroide(2)).^2);
 
-        [~,posicion]= min((puntos_x -centroide(1)).^2 + (puntos_y -centroide(2)).^2);
+            centroide_final = [puntos_x(posicion),puntos_y(posicion)];
 
-        centroide_final = [puntos_x(posicion),puntos_y(posicion)];
-
-        Im_Depth_box = Im_Depth(bboxes(1,2):bboxes(1,2)+bboxes(1,4),bboxes(1,1):bboxes(1,1)+bboxes(1,3),:);
-        depth = double(Im_Depth_box(centroide_final(2),centroide_final(1)));
-        Xc = double(centroide_final(1)+bboxes(1,1));
-        Yc = double(centroide_final(2)+bboxes(1,2));
-        Xm = double((Xc/(size(Im_Depth,2))-1/2)*depth)*-1.6077;
-
+            Im_Depth_box = Im_Depth(bboxes(1,2):bboxes(1,2)+bboxes(1,4),bboxes(1,1):bboxes(1,1)+bboxes(1,3),:);
+            depth = double(Im_Depth_box(centroide_final(2),centroide_final(1)));
+            Xc = double(centroide_final(1)+bboxes(1,1));
+            Yc = double(centroide_final(2)+bboxes(1,2));
+            Xm = double((Xc/(size(Im_Depth,2))-1/2)*depth)*-1.6077;
+        else
+            depth= NaN;
+            Xm= NaN;
+            Xc= NaN;
+            Yc= NaN;
+        end
 
         %Im_RGB = insertShape(Im_RGB,'circle',[centroide_final(1) centroide_final(2) 10],'LineWidth',5);
     else

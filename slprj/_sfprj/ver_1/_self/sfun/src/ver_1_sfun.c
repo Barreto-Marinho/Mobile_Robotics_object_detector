@@ -2,6 +2,7 @@
 
 #include "ver_1_sfun.h"
 #include "c4_ver_1.h"
+#include "c6_ver_1.h"
 
 /* Forward Declarations */
 /* Type Definitions */
@@ -29,6 +30,11 @@ unsigned int sf_ver_1_method_dispatcher(SimStruct *simstructPtr, unsigned int
 {
   if (chartFileNumber==4) {
     c4_ver_1_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
+  if (chartFileNumber==6) {
+    c6_ver_1_method_dispatcher(simstructPtr, method, data);
     return 1;
   }
 
@@ -67,6 +73,13 @@ unsigned int sf_ver_1_process_check_sum_call( int nlhs, mxArray * plhs[], int
         {
           extern void sf_c4_ver_1_get_check_sum(mxArray *plhs[]);
           sf_c4_ver_1_get_check_sum(plhs);
+          break;
+        }
+
+       case 6:
+        {
+          extern void sf_c6_ver_1_get_check_sum(mxArray *plhs[]);
+          sf_c6_ver_1_get_check_sum(plhs);
           break;
         }
 
@@ -136,6 +149,18 @@ unsigned int sf_ver_1_get_eml_resolved_functions_info( int nlhs, mxArray * plhs[
         }
       }
 
+     case 6:
+      {
+        if (strcmp(instanceChksum, "sKAF5f4WH4vMz91sVFoTNTE") == 0) {
+          extern const mxArray *sf_c6_ver_1_get_eml_resolved_functions_info(void);
+          mxArray *persistentMxArray = (mxArray *)
+            sf_c6_ver_1_get_eml_resolved_functions_info();
+          plhs[0] = mxDuplicateArray(persistentMxArray);
+          mxDestroyArray(persistentMxArray);
+          break;
+        }
+      }
+
      default:
       plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
     }
@@ -180,6 +205,15 @@ unsigned int sf_ver_1_third_party_uses_info( int nlhs, mxArray * plhs[], int
         }
       }
 
+     case 6:
+      {
+        if (strcmp(tpChksum, "sKAF5f4WH4vMz91sVFoTNTE") == 0) {
+          extern mxArray *sf_c6_ver_1_third_party_uses_info(void);
+          plhs[0] = sf_c6_ver_1_third_party_uses_info();
+          break;
+        }
+      }
+
      default:
       plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
     }
@@ -213,6 +247,15 @@ unsigned int sf_ver_1_jit_fallback_info( int nlhs, mxArray * plhs[], int nrhs,
         if (strcmp(tpChksum, "sKAF5f4WH4vMz91sVFoTNTE") == 0) {
           extern mxArray *sf_c4_ver_1_jit_fallback_info(void);
           plhs[0] = sf_c4_ver_1_jit_fallback_info();
+          break;
+        }
+      }
+
+     case 6:
+      {
+        if (strcmp(tpChksum, "sKAF5f4WH4vMz91sVFoTNTE") == 0) {
+          extern mxArray *sf_c6_ver_1_jit_fallback_info(void);
+          plhs[0] = sf_c6_ver_1_jit_fallback_info();
           break;
         }
       }
@@ -256,6 +299,17 @@ unsigned int sf_ver_1_get_post_codegen_info( int nlhs, mxArray * plhs[], int
         }
       }
 
+     case 6:
+      {
+        if (strcmp(tpChksum, "sKAF5f4WH4vMz91sVFoTNTE") == 0) {
+          const char *sf_c6_ver_1_get_post_codegen_info(void);
+          const char* encoded_post_codegen_info =
+            sf_c6_ver_1_get_post_codegen_info();
+          plhs[0] = sf_mex_decode(encoded_post_codegen_info);
+          break;
+        }
+      }
+
      default:
       plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
     }
@@ -289,6 +343,15 @@ unsigned int sf_ver_1_updateBuildInfo_args_info( int nlhs, mxArray * plhs[], int
         if (strcmp(tpChksum, "sKAF5f4WH4vMz91sVFoTNTE") == 0) {
           extern mxArray *sf_c4_ver_1_updateBuildInfo_args_info(void);
           plhs[0] = sf_c4_ver_1_updateBuildInfo_args_info();
+          break;
+        }
+      }
+
+     case 6:
+      {
+        if (strcmp(tpChksum, "sKAF5f4WH4vMz91sVFoTNTE") == 0) {
+          extern mxArray *sf_c6_ver_1_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c6_ver_1_updateBuildInfo_args_info();
           break;
         }
       }

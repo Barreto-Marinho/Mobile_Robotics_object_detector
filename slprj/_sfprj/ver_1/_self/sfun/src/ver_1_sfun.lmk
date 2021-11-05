@@ -8,6 +8,7 @@ LIBFLAGS =
 OBJECTS = \
 	"ver_1_sfun.obj"\
 	"c4_ver_1.obj"\
+	"c6_ver_1.obj"\
 	"ver_1_sfun_registry.obj"\
 	"half_type.obj"\
 	"lccstub.obj"\
@@ -22,6 +23,8 @@ ver_1_sfun.obj :	"D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_r
 	$(CC) $(CFLAGS) $(INCLUDE_PATH) "D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\ver_1_sfun.c"
 c4_ver_1.obj :	"D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\c4_ver_1.c"
 	$(CC) $(CFLAGS) $(INCLUDE_PATH) "D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\c4_ver_1.c"
+c6_ver_1.obj :	"D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\c6_ver_1.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\c6_ver_1.c"
 ver_1_sfun_registry.obj :	"D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\ver_1_sfun_registry.c"
 	$(CC) $(CFLAGS) $(INCLUDE_PATH) "D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\ver_1_sfun_registry.c"
 half_type.obj :	"D:\Documentos\8tvo_semestre\Robotica_movil\Proyecto\Proyecto_robotica_movil\slprj\_sfprj\ver_1\_self\sfun\src\half_type.c"

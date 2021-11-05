@@ -170,13 +170,13 @@ static emlrtRSInfo c4_d_emlrtRSI = { 38,/* lineNo */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m"/* pathName */
 };
 
-static emlrtRSInfo c4_e_emlrtRSI = { 40,/* lineNo */
+static emlrtRSInfo c4_e_emlrtRSI = { 42,/* lineNo */
   "calculo_depth_simulink",            /* fcnName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m"/* pathName */
 };
 
 static emlrtRSInfo c4_f_emlrtRSI = { 3,/* lineNo */
-  "Subsystem1/MATLAB Function1",       /* fcnName */
+  "Detection object/MATLAB Function1", /* fcnName */
   "#ver_1:118"                         /* pathName */
 };
 
@@ -1225,7 +1225,7 @@ static emlrtRTEInfo c4_c_emlrtRTEI = { 10,/* lineNo */
 
 static emlrtRTEInfo c4_d_emlrtRTEI = { 3,/* lineNo */
   5,                                   /* colNo */
-  "Subsystem1/MATLAB Function1",       /* fName */
+  "Detection object/MATLAB Function1", /* fName */
   "#ver_1:118"                         /* pName */
 };
 
@@ -1295,26 +1295,26 @@ static emlrtRTEInfo c4_o_emlrtRTEI = { 21,/* lineNo */
   "C:\\Program Files\\MATLAB\\R2021a\\toolbox\\eml\\lib\\matlab\\elmat\\ind2sub.m"/* pName */
 };
 
-static emlrtRTEInfo c4_p_emlrtRTEI = { 40,/* lineNo */
-  28,                                  /* colNo */
+static emlrtRTEInfo c4_p_emlrtRTEI = { 42,/* lineNo */
+  32,                                  /* colNo */
   "calculo_depth_simulink",            /* fName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m"/* pName */
 };
 
-static emlrtRTEInfo c4_q_emlrtRTEI = { 40,/* lineNo */
-  58,                                  /* colNo */
+static emlrtRTEInfo c4_q_emlrtRTEI = { 42,/* lineNo */
+  62,                                  /* colNo */
   "calculo_depth_simulink",            /* fName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m"/* pName */
 };
 
-static emlrtRTEInfo c4_r_emlrtRTEI = { 40,/* lineNo */
-  27,                                  /* colNo */
+static emlrtRTEInfo c4_r_emlrtRTEI = { 42,/* lineNo */
+  31,                                  /* colNo */
   "calculo_depth_simulink",            /* fName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m"/* pName */
 };
 
-static emlrtRTEInfo c4_s_emlrtRTEI = { 44,/* lineNo */
-  9,                                   /* colNo */
+static emlrtRTEInfo c4_s_emlrtRTEI = { 46,/* lineNo */
+  13,                                  /* colNo */
   "calculo_depth_simulink",            /* fName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m"/* pName */
 };
@@ -1716,8 +1716,8 @@ static emlrtRTEInfo c4_jd_emlrtRTEI = { 99,/* lineNo */
 };
 
 static emlrtECInfo c4_emlrtECI = { -1, /* nDims */
-  40,                                  /* lineNo */
-  27,                                  /* colNo */
+  42,                                  /* lineNo */
+  31,                                  /* colNo */
   "calculo_depth_simulink",            /* fName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m"/* pName */
 };
@@ -1880,16 +1880,16 @@ static emlrtDCInfo c4_h_emlrtDCI = { 33,/* lineNo */
 
 static emlrtBCInfo c4_i_emlrtBCI = { -1,/* iFirst */
   -1,                                  /* iLast */
-  42,                                  /* lineNo */
-  28,                                  /* colNo */
+  44,                                  /* lineNo */
+  32,                                  /* colNo */
   "puntos_x",                          /* aName */
   "calculo_depth_simulink",            /* fName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m",/* pName */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c4_i_emlrtDCI = { 42,/* lineNo */
-  28,                                  /* colNo */
+static emlrtDCInfo c4_i_emlrtDCI = { 44,/* lineNo */
+  32,                                  /* colNo */
   "calculo_depth_simulink",            /* fName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m",/* pName */
   1                                    /* checkKind */
@@ -1897,16 +1897,16 @@ static emlrtDCInfo c4_i_emlrtDCI = { 42,/* lineNo */
 
 static emlrtBCInfo c4_j_emlrtBCI = { -1,/* iFirst */
   -1,                                  /* iLast */
-  42,                                  /* lineNo */
-  47,                                  /* colNo */
+  44,                                  /* lineNo */
+  51,                                  /* colNo */
   "puntos_y",                          /* aName */
   "calculo_depth_simulink",            /* fName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m",/* pName */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c4_j_emlrtDCI = { 42,/* lineNo */
-  47,                                  /* colNo */
+static emlrtDCInfo c4_j_emlrtDCI = { 44,/* lineNo */
+  51,                                  /* colNo */
   "calculo_depth_simulink",            /* fName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m",/* pName */
   1                                    /* checkKind */
@@ -1914,16 +1914,16 @@ static emlrtDCInfo c4_j_emlrtDCI = { 42,/* lineNo */
 
 static emlrtBCInfo c4_k_emlrtBCI = { 1,/* iFirst */
   1080,                                /* iLast */
-  44,                                  /* lineNo */
-  33,                                  /* colNo */
+  46,                                  /* lineNo */
+  37,                                  /* colNo */
   "Im_Depth",                          /* aName */
   "calculo_depth_simulink",            /* fName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m",/* pName */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c4_k_emlrtDCI = { 44,/* lineNo */
-  33,                                  /* colNo */
+static emlrtDCInfo c4_k_emlrtDCI = { 46,/* lineNo */
+  37,                                  /* colNo */
   "calculo_depth_simulink",            /* fName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m",/* pName */
   1                                    /* checkKind */
@@ -1931,16 +1931,16 @@ static emlrtDCInfo c4_k_emlrtDCI = { 44,/* lineNo */
 
 static emlrtBCInfo c4_l_emlrtBCI = { 1,/* iFirst */
   1920,                                /* iLast */
-  44,                                  /* lineNo */
-  69,                                  /* colNo */
+  46,                                  /* lineNo */
+  73,                                  /* colNo */
   "Im_Depth",                          /* aName */
   "calculo_depth_simulink",            /* fName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m",/* pName */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c4_l_emlrtDCI = { 44,/* lineNo */
-  69,                                  /* colNo */
+static emlrtDCInfo c4_l_emlrtDCI = { 46,/* lineNo */
+  73,                                  /* colNo */
   "calculo_depth_simulink",            /* fName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m",/* pName */
   1                                    /* checkKind */
@@ -1948,16 +1948,16 @@ static emlrtDCInfo c4_l_emlrtDCI = { 44,/* lineNo */
 
 static emlrtBCInfo c4_m_emlrtBCI = { -1,/* iFirst */
   -1,                                  /* iLast */
-  45,                                  /* lineNo */
-  24,                                  /* colNo */
+  47,                                  /* lineNo */
+  28,                                  /* colNo */
   "Im_Depth_box",                      /* aName */
   "calculo_depth_simulink",            /* fName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m",/* pName */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c4_m_emlrtDCI = { 45,/* lineNo */
-  24,                                  /* colNo */
+static emlrtDCInfo c4_m_emlrtDCI = { 47,/* lineNo */
+  28,                                  /* colNo */
   "calculo_depth_simulink",            /* fName */
   "D:\\Documentos\\8tvo_semestre\\Robotica_movil\\Proyecto\\Proyecto_robotica_movil\\Code_ros\\calculo_depth_simulink.m",/* pName */
   1                                    /* checkKind */
@@ -3153,6 +3153,8 @@ static void sf_gateway_c4_ver_1(SFc4_ver_1InstanceStruct *chartInstance)
   real_T c4_ex;
   real_T c4_f_x;
   real_T c4_g_x;
+  real_T c4_h_x;
+  real_T c4_i_x;
   real_T c4_posicion;
   int32_T c4_iv[2];
   int32_T c4_iv1[2];
@@ -3305,7 +3307,10 @@ static void sf_gateway_c4_ver_1(SFc4_ver_1InstanceStruct *chartInstance)
   boolean_T c4_e_b;
   boolean_T c4_e_p;
   boolean_T c4_exitg1;
+  boolean_T c4_f_b;
   boolean_T c4_f_p;
+  boolean_T c4_g_b;
+  boolean_T c4_guard1 = false;
   boolean_T c4_overflow;
   boolean_T c4_p;
   c4_st.tls = chartInstance->c4_fEmlrtCtx;
@@ -3859,152 +3864,188 @@ static void sf_gateway_c4_ver_1(SFc4_ver_1InstanceStruct *chartInstance)
     }
 
     c4_emxFree_int32_T(chartInstance, &c4_varargout_4);
-    c4_emxInit_real_T(chartInstance, &c4_c_st, &c4_b_puntos_x, 1,
-                      &c4_p_emlrtRTEI);
-    c4_b_centroide = c4_centroide[0];
-    c4_i64 = c4_b_puntos_x->size[0];
-    c4_b_puntos_x->size[0] = c4_puntos_x->size[0];
-    c4_emxEnsureCapacity_real_T(chartInstance, &c4_b_st, c4_b_puntos_x, c4_i64,
-      &c4_p_emlrtRTEI);
-    c4_p_loop_ub = c4_puntos_x->size[0] - 1;
-    for (c4_i65 = 0; c4_i65 <= c4_p_loop_ub; c4_i65++) {
-      c4_b_puntos_x->data[c4_i65] = c4_puntos_x->data[c4_i65] - c4_b_centroide;
-    }
-
+    c4_h_x = c4_centroide[0];
+    c4_f_b = muDoubleScalarIsNaN(c4_h_x);
+    c4_emxInit_real_T(chartInstance, &c4_b_st, &c4_r, 1, (emlrtRTEInfo *)NULL);
     c4_emxInit_real_T(chartInstance, &c4_b_st, &c4_b_varargin_1, 1,
                       &c4_r_emlrtRTEI);
+    c4_emxInit_real_T(chartInstance, &c4_b_st, &c4_b_puntos_x, 1,
+                      &c4_p_emlrtRTEI);
     c4_emxInit_real_T(chartInstance, &c4_b_st, &c4_b_puntos_y, 1,
                       &c4_q_emlrtRTEI);
-    c4_c_st.site = &c4_e_emlrtRSI;
-    c4_power(chartInstance, &c4_c_st, c4_b_puntos_x, c4_b_varargin_1);
-    c4_c_centroide = c4_centroide[1];
-    c4_i66 = c4_b_puntos_y->size[0];
-    c4_b_puntos_y->size[0] = c4_puntos_y->size[0];
-    c4_emxEnsureCapacity_real_T(chartInstance, &c4_b_st, c4_b_puntos_y, c4_i66,
-      &c4_q_emlrtRTEI);
-    c4_q_loop_ub = c4_puntos_y->size[0] - 1;
-    c4_emxFree_real_T(chartInstance, &c4_b_puntos_x);
-    for (c4_i67 = 0; c4_i67 <= c4_q_loop_ub; c4_i67++) {
-      c4_b_puntos_y->data[c4_i67] = c4_puntos_y->data[c4_i67] - c4_c_centroide;
+    c4_guard1 = false;
+    if (!covrtEmlCondEval(chartInstance->c4_covrtInstance, 14U, 0, 0, c4_f_b)) {
+      c4_i_x = c4_centroide[1];
+      c4_g_b = muDoubleScalarIsNaN(c4_i_x);
+      if (!covrtEmlCondEval(chartInstance->c4_covrtInstance, 14U, 0, 1, c4_g_b))
+      {
+        covrtEmlMcdcEval(chartInstance->c4_covrtInstance, 14U, 0, 0, true);
+        covrtEmlIfEval(chartInstance->c4_covrtInstance, 14U, 0, 1, true);
+        c4_b_centroide = c4_centroide[0];
+        c4_i64 = c4_b_puntos_x->size[0];
+        c4_b_puntos_x->size[0] = c4_puntos_x->size[0];
+        c4_emxEnsureCapacity_real_T(chartInstance, &c4_b_st, c4_b_puntos_x,
+          c4_i64, &c4_p_emlrtRTEI);
+        c4_p_loop_ub = c4_puntos_x->size[0] - 1;
+        for (c4_i65 = 0; c4_i65 <= c4_p_loop_ub; c4_i65++) {
+          c4_b_puntos_x->data[c4_i65] = c4_puntos_x->data[c4_i65] -
+            c4_b_centroide;
+        }
+
+        c4_c_st.site = &c4_e_emlrtRSI;
+        c4_power(chartInstance, &c4_c_st, c4_b_puntos_x, c4_b_varargin_1);
+        c4_c_centroide = c4_centroide[1];
+        c4_i66 = c4_b_puntos_y->size[0];
+        c4_b_puntos_y->size[0] = c4_puntos_y->size[0];
+        c4_emxEnsureCapacity_real_T(chartInstance, &c4_b_st, c4_b_puntos_y,
+          c4_i66, &c4_q_emlrtRTEI);
+        c4_q_loop_ub = c4_puntos_y->size[0] - 1;
+        for (c4_i67 = 0; c4_i67 <= c4_q_loop_ub; c4_i67++) {
+          c4_b_puntos_y->data[c4_i67] = c4_puntos_y->data[c4_i67] -
+            c4_c_centroide;
+        }
+
+        c4_c_st.site = &c4_e_emlrtRSI;
+        c4_power(chartInstance, &c4_c_st, c4_b_puntos_y, c4_r);
+        c4_i68 = c4_b_varargin_1->size[0];
+        c4_i69 = c4_r->size[0];
+        if (c4_i68 != c4_i69) {
+          emlrtSizeEqCheck1DR2012b(c4_i68, c4_i69, &c4_emlrtECI, &c4_b_st);
+        }
+
+        c4_c_st.site = &c4_e_emlrtRSI;
+        c4_i70 = c4_b_varargin_1->size[0];
+        c4_emxEnsureCapacity_real_T(chartInstance, &c4_c_st, c4_b_varargin_1,
+          c4_i70, &c4_r_emlrtRTEI);
+        c4_r_loop_ub = c4_b_varargin_1->size[0] - 1;
+        for (c4_i71 = 0; c4_i71 <= c4_r_loop_ub; c4_i71++) {
+          c4_b_varargin_1->data[c4_i71] += c4_r->data[c4_i71];
+        }
+
+        c4_d_st.site = &c4_ii_emlrtRSI;
+        c4_e_st.site = &c4_ji_emlrtRSI;
+        c4_minimum(chartInstance, &c4_e_st, c4_b_varargin_1, &c4_b_ex, &c4_f_idx);
+        c4_b_iindx = c4_f_idx;
+        c4_e_posicion = (real_T)c4_b_iindx;
+        c4_b_posicion = c4_e_posicion;
+        c4_i72 = c4_puntos_x->size[0];
+        if (c4_b_posicion != (real_T)(int32_T)muDoubleScalarFloor(c4_b_posicion))
+        {
+          emlrtIntegerCheckR2012b(c4_b_posicion, &c4_i_emlrtDCI, &c4_b_st);
+        }
+
+        c4_i73 = (int32_T)c4_b_posicion;
+        if ((c4_i73 < 1) || (c4_i73 > c4_i72)) {
+          emlrtDynamicBoundsCheckR2012b(c4_i73, 1, c4_i72, &c4_i_emlrtBCI,
+            &c4_b_st);
+        }
+
+        c4_centroide[0] = c4_puntos_x->data[c4_i73 - 1];
+        c4_i74 = c4_puntos_y->size[0];
+        if (c4_b_posicion != (real_T)(int32_T)muDoubleScalarFloor(c4_b_posicion))
+        {
+          emlrtIntegerCheckR2012b(c4_b_posicion, &c4_j_emlrtDCI, &c4_b_st);
+        }
+
+        c4_i75 = (int32_T)c4_b_posicion;
+        if ((c4_i75 < 1) || (c4_i75 > c4_i74)) {
+          emlrtDynamicBoundsCheckR2012b(c4_i75, 1, c4_i74, &c4_j_emlrtBCI,
+            &c4_b_st);
+        }
+
+        c4_centroide[1] = c4_puntos_y->data[c4_i75 - 1];
+        c4_e_bboxes = c4_b_bboxes[1];
+        c4_f_bboxes = c4_b_bboxes[0];
+        c4_i76 = c4_Im_Depth_box->size[0] * c4_Im_Depth_box->size[1];
+        c4_Im_Depth_box->size[0] = (int32_T)muSingleScalarFloor(c4_b_bboxes[3])
+          + 1;
+        c4_Im_Depth_box->size[1] = (int32_T)muSingleScalarFloor(c4_b_bboxes[2])
+          + 1;
+        c4_emxEnsureCapacity_real32_T(chartInstance, &c4_b_st, c4_Im_Depth_box,
+          c4_i76, &c4_s_emlrtRTEI);
+        c4_s_loop_ub = (int32_T)muSingleScalarFloor(c4_b_bboxes[2]);
+        for (c4_i77 = 0; c4_i77 <= c4_s_loop_ub; c4_i77++) {
+          c4_t_loop_ub = (int32_T)muSingleScalarFloor(c4_b_bboxes[3]);
+          for (c4_i79 = 0; c4_i79 <= c4_t_loop_ub; c4_i79++) {
+            c4_d4 = c4_e_bboxes + (real32_T)c4_i79;
+            if (c4_d4 != (real_T)(int32_T)muDoubleScalarFloor(c4_d4)) {
+              emlrtIntegerCheckR2012b(c4_d4, &c4_k_emlrtDCI, &c4_b_st);
+            }
+
+            c4_i82 = (int32_T)(real32_T)c4_d4;
+            if ((c4_i82 < 1) || (c4_i82 > 1080)) {
+              emlrtDynamicBoundsCheckR2012b(c4_i82, 1, 1080, &c4_k_emlrtBCI,
+                &c4_b_st);
+            }
+
+            c4_d5 = c4_f_bboxes + (real32_T)c4_i77;
+            if (c4_d5 != (real_T)(int32_T)muDoubleScalarFloor(c4_d5)) {
+              emlrtIntegerCheckR2012b(c4_d5, &c4_l_emlrtDCI, &c4_b_st);
+            }
+
+            c4_i84 = (int32_T)(real32_T)c4_d5;
+            if ((c4_i84 < 1) || (c4_i84 > 1920)) {
+              emlrtDynamicBoundsCheckR2012b(c4_i84, 1, 1920, &c4_l_emlrtBCI,
+                &c4_b_st);
+            }
+
+            c4_Im_Depth_box->data[c4_i79 + c4_Im_Depth_box->size[0] * c4_i77] =
+              chartInstance->c4_Im_Depth[((int32_T)(real32_T)c4_i82 + 1080 *
+              ((int32_T)(real32_T)c4_i84 - 1)) - 1];
+          }
+        }
+
+        c4_i78 = c4_Im_Depth_box->size[0];
+        if (c4_centroide[1] != (real_T)(int32_T)muDoubleScalarFloor
+            (c4_centroide[1])) {
+          emlrtIntegerCheckR2012b(c4_centroide[1], &c4_m_emlrtDCI, &c4_b_st);
+        }
+
+        c4_i80 = (int32_T)c4_centroide[1];
+        if ((c4_i80 < 1) || (c4_i80 > c4_i78)) {
+          emlrtDynamicBoundsCheckR2012b(c4_i80, 1, c4_i78, &c4_m_emlrtBCI,
+            &c4_b_st);
+        }
+
+        c4_i81 = c4_Im_Depth_box->size[1];
+        if (c4_centroide[0] != (real_T)(int32_T)muDoubleScalarFloor
+            (c4_centroide[0])) {
+          emlrtIntegerCheckR2012b(c4_centroide[0], &c4_m_emlrtDCI, &c4_b_st);
+        }
+
+        c4_i83 = (int32_T)c4_centroide[0];
+        if ((c4_i83 < 1) || (c4_i83 > c4_i81)) {
+          emlrtDynamicBoundsCheckR2012b(c4_i83, 1, c4_i81, &c4_m_emlrtBCI,
+            &c4_b_st);
+        }
+
+        c4_b_x = c4_Im_Depth_box->data[(c4_i80 + c4_Im_Depth_box->size[0] *
+          (c4_i83 - 1)) - 1];
+        c4_b_cx = (real32_T)c4_centroide[0] + c4_b_bboxes[0];
+        c4_b_cy = (real32_T)c4_centroide[1] + c4_b_bboxes[1];
+        c4_b_y = (c4_b_cx / 1920.0 - 0.5) * c4_b_x * -1.6077;
+      } else {
+        c4_guard1 = true;
+      }
+    } else {
+      c4_guard1 = true;
     }
 
-    c4_emxInit_real_T(chartInstance, &c4_b_st, &c4_r, 1, (emlrtRTEInfo *)NULL);
-    c4_c_st.site = &c4_e_emlrtRSI;
-    c4_power(chartInstance, &c4_c_st, c4_b_puntos_y, c4_r);
-    c4_i68 = c4_b_varargin_1->size[0];
-    c4_i69 = c4_r->size[0];
-    if (c4_i68 != c4_i69) {
-      emlrtSizeEqCheck1DR2012b(c4_i68, c4_i69, &c4_emlrtECI, &c4_b_st);
+    if (c4_guard1) {
+      covrtEmlMcdcEval(chartInstance->c4_covrtInstance, 14U, 0, 0, false);
+      covrtEmlIfEval(chartInstance->c4_covrtInstance, 14U, 0, 1, false);
+      c4_b_x = rtNaN;
+      c4_b_y = rtNaN;
+      c4_b_cx = rtNaN;
+      c4_b_cy = rtNaN;
     }
 
-    c4_c_st.site = &c4_e_emlrtRSI;
-    c4_i70 = c4_b_varargin_1->size[0];
-    c4_emxEnsureCapacity_real_T(chartInstance, &c4_c_st, c4_b_varargin_1, c4_i70,
-      &c4_r_emlrtRTEI);
-    c4_r_loop_ub = c4_b_varargin_1->size[0] - 1;
     c4_emxFree_real_T(chartInstance, &c4_b_puntos_y);
-    for (c4_i71 = 0; c4_i71 <= c4_r_loop_ub; c4_i71++) {
-      c4_b_varargin_1->data[c4_i71] += c4_r->data[c4_i71];
-    }
-
-    c4_emxFree_real_T(chartInstance, &c4_r);
-    c4_d_st.site = &c4_ii_emlrtRSI;
-    c4_e_st.site = &c4_ji_emlrtRSI;
-    c4_minimum(chartInstance, &c4_e_st, c4_b_varargin_1, &c4_b_ex, &c4_f_idx);
-    c4_b_iindx = c4_f_idx;
-    c4_e_posicion = (real_T)c4_b_iindx;
-    c4_b_posicion = c4_e_posicion;
-    c4_i72 = c4_puntos_x->size[0];
-    if (c4_b_posicion != (real_T)(int32_T)muDoubleScalarFloor(c4_b_posicion)) {
-      emlrtIntegerCheckR2012b(c4_b_posicion, &c4_i_emlrtDCI, &c4_b_st);
-    }
-
-    c4_i73 = (int32_T)c4_b_posicion;
-    if ((c4_i73 < 1) || (c4_i73 > c4_i72)) {
-      emlrtDynamicBoundsCheckR2012b(c4_i73, 1, c4_i72, &c4_i_emlrtBCI, &c4_b_st);
-    }
-
-    c4_centroide[0] = c4_puntos_x->data[c4_i73 - 1];
-    c4_i74 = c4_puntos_y->size[0];
-    if (c4_b_posicion != (real_T)(int32_T)muDoubleScalarFloor(c4_b_posicion)) {
-      emlrtIntegerCheckR2012b(c4_b_posicion, &c4_j_emlrtDCI, &c4_b_st);
-    }
-
-    c4_i75 = (int32_T)c4_b_posicion;
-    if ((c4_i75 < 1) || (c4_i75 > c4_i74)) {
-      emlrtDynamicBoundsCheckR2012b(c4_i75, 1, c4_i74, &c4_j_emlrtBCI, &c4_b_st);
-    }
-
-    c4_centroide[1] = c4_puntos_y->data[c4_i75 - 1];
-    c4_e_bboxes = c4_b_bboxes[1];
-    c4_f_bboxes = c4_b_bboxes[0];
-    c4_i76 = c4_Im_Depth_box->size[0] * c4_Im_Depth_box->size[1];
-    c4_Im_Depth_box->size[0] = (int32_T)muSingleScalarFloor(c4_b_bboxes[3]) + 1;
-    c4_Im_Depth_box->size[1] = (int32_T)muSingleScalarFloor(c4_b_bboxes[2]) + 1;
-    c4_emxEnsureCapacity_real32_T(chartInstance, &c4_b_st, c4_Im_Depth_box,
-      c4_i76, &c4_s_emlrtRTEI);
-    c4_s_loop_ub = (int32_T)muSingleScalarFloor(c4_b_bboxes[2]);
+    c4_emxFree_real_T(chartInstance, &c4_b_puntos_x);
     c4_emxFree_real_T(chartInstance, &c4_b_varargin_1);
+    c4_emxFree_real_T(chartInstance, &c4_r);
     c4_emxFree_real_T(chartInstance, &c4_puntos_x);
     c4_emxFree_real_T(chartInstance, &c4_puntos_y);
-    for (c4_i77 = 0; c4_i77 <= c4_s_loop_ub; c4_i77++) {
-      c4_t_loop_ub = (int32_T)muSingleScalarFloor(c4_b_bboxes[3]);
-      for (c4_i79 = 0; c4_i79 <= c4_t_loop_ub; c4_i79++) {
-        c4_d4 = c4_e_bboxes + (real32_T)c4_i79;
-        if (c4_d4 != (real_T)(int32_T)muDoubleScalarFloor(c4_d4)) {
-          emlrtIntegerCheckR2012b(c4_d4, &c4_k_emlrtDCI, &c4_b_st);
-        }
-
-        c4_i82 = (int32_T)(real32_T)c4_d4;
-        if ((c4_i82 < 1) || (c4_i82 > 1080)) {
-          emlrtDynamicBoundsCheckR2012b(c4_i82, 1, 1080, &c4_k_emlrtBCI,
-            &c4_b_st);
-        }
-
-        c4_d5 = c4_f_bboxes + (real32_T)c4_i77;
-        if (c4_d5 != (real_T)(int32_T)muDoubleScalarFloor(c4_d5)) {
-          emlrtIntegerCheckR2012b(c4_d5, &c4_l_emlrtDCI, &c4_b_st);
-        }
-
-        c4_i84 = (int32_T)(real32_T)c4_d5;
-        if ((c4_i84 < 1) || (c4_i84 > 1920)) {
-          emlrtDynamicBoundsCheckR2012b(c4_i84, 1, 1920, &c4_l_emlrtBCI,
-            &c4_b_st);
-        }
-
-        c4_Im_Depth_box->data[c4_i79 + c4_Im_Depth_box->size[0] * c4_i77] =
-          chartInstance->c4_Im_Depth[((int32_T)(real32_T)c4_i82 + 1080 *
-          ((int32_T)(real32_T)c4_i84 - 1)) - 1];
-      }
-    }
-
-    c4_i78 = c4_Im_Depth_box->size[0];
-    if (c4_centroide[1] != (real_T)(int32_T)muDoubleScalarFloor(c4_centroide[1]))
-    {
-      emlrtIntegerCheckR2012b(c4_centroide[1], &c4_m_emlrtDCI, &c4_b_st);
-    }
-
-    c4_i80 = (int32_T)c4_centroide[1];
-    if ((c4_i80 < 1) || (c4_i80 > c4_i78)) {
-      emlrtDynamicBoundsCheckR2012b(c4_i80, 1, c4_i78, &c4_m_emlrtBCI, &c4_b_st);
-    }
-
-    c4_i81 = c4_Im_Depth_box->size[1];
-    if (c4_centroide[0] != (real_T)(int32_T)muDoubleScalarFloor(c4_centroide[0]))
-    {
-      emlrtIntegerCheckR2012b(c4_centroide[0], &c4_m_emlrtDCI, &c4_b_st);
-    }
-
-    c4_i83 = (int32_T)c4_centroide[0];
-    if ((c4_i83 < 1) || (c4_i83 > c4_i81)) {
-      emlrtDynamicBoundsCheckR2012b(c4_i83, 1, c4_i81, &c4_m_emlrtBCI, &c4_b_st);
-    }
-
-    c4_b_x = c4_Im_Depth_box->data[(c4_i80 + c4_Im_Depth_box->size[0] * (c4_i83
-      - 1)) - 1];
-    c4_b_cx = (real32_T)c4_centroide[0] + c4_b_bboxes[0];
-    c4_b_cy = (real32_T)c4_centroide[1] + c4_b_bboxes[1];
-    c4_b_y = (c4_b_cx / 1920.0 - 0.5) * c4_b_x * -1.6077;
     c4_emxFree_real32_T(chartInstance, &c4_Im_Depth_box);
   } else {
     c4_b_x = rtNaN;
@@ -4041,6 +4082,12 @@ static void mdl_terminate_c4_ver_1(SFc4_ver_1InstanceStruct *chartInstance)
 static void mdl_setup_runtime_resources_c4_ver_1(SFc4_ver_1InstanceStruct
   *chartInstance)
 {
+  static const int32_T c4_postfixPredicateTree[5] = { 0, -1, 1, -1, -3 };
+
+  static const int32_T c4_condTxtEndIdx[2] = { 1317, 1341 };
+
+  static const int32_T c4_condTxtStartIdx[2] = { 1298, 1322 };
+
   static const uint32_T c4_decisionTxtEndIdx = 0U;
   static const uint32_T c4_decisionTxtStartIdx = 0U;
   setLegacyDebuggerFlag(chartInstance->S, false);
@@ -4053,7 +4100,7 @@ static void mdl_setup_runtime_resources_c4_ver_1(SFc4_ver_1InstanceStruct
     &chartInstance->c4_mlFcnLineNumber, &chartInstance->c4_IsHeatMapPresent, 0);
   sim_mode_is_external(chartInstance->S);
   covrtCreateStateflowInstanceData(chartInstance->c4_covrtInstance, 1U, 0U, 1U,
-    22U);
+    36U);
   covrtChartInitFcn(chartInstance->c4_covrtInstance, 0U, false, false, false);
   covrtStateInitFcn(chartInstance->c4_covrtInstance, 0U, 0U, false, false, false,
                     0U, &c4_decisionTxtStartIdx, &c4_decisionTxtEndIdx);
@@ -4064,13 +4111,18 @@ static void mdl_setup_runtime_resources_c4_ver_1(SFc4_ver_1InstanceStruct
                      "eML_blk_kernel", 0, -1, 107);
   covrtEmlInitFcn(chartInstance->c4_covrtInstance,
                   "D:/Documentos/8tvo_semestre/Robotica_movil/Proyecto/Proyecto_robotica_movil/Code_ros/calculo_depth_simulink.m",
-                  14U, 0U, 1U, 0U, 1U, 0U, 0U, 0U, 1U, 0U, 0U, 0U);
+                  14U, 0U, 1U, 0U, 2U, 0U, 0U, 0U, 1U, 0U, 2U, 1U);
   covrtEmlFcnInitFcn(chartInstance->c4_covrtInstance, 14U, 0U, 0U,
-                     "calculo_depth_simulink", 0, -1, 1987);
-  covrtEmlIfInitFcn(chartInstance->c4_covrtInstance, 14U, 0U, 0U, 72, 90, 1899,
-                    1982);
+                     "calculo_depth_simulink", 0, -1, 2200);
+  covrtEmlIfInitFcn(chartInstance->c4_covrtInstance, 14U, 0U, 0U, 72, 90, 2112,
+                    2195);
+  covrtEmlIfInitFcn(chartInstance->c4_covrtInstance, 14U, 0U, 1U, 1294, 1342,
+                    1898, 2001);
   covrtEmlForInitFcn(chartInstance->c4_covrtInstance, 14U, 0U, 0U, 734, 760,
                      1006);
+  covrtEmlMCDCInitFcn(chartInstance->c4_covrtInstance, 14U, 0U, 0U, 1297, 1341,
+                      2U, 0U, c4_condTxtStartIdx, c4_condTxtEndIdx, 5U,
+                      c4_postfixPredicateTree);
   covrtEmlRelationalInitFcn(chartInstance->c4_covrtInstance, 14U, 0U, 0U, 75, 89,
     -1, 4U);
 }
@@ -4091,12 +4143,12 @@ const mxArray *sf_c4_ver_1_get_eml_resolved_functions_info(void)
 {
   const mxArray *c4_nameCaptureInfo = NULL;
   const char_T *c4_data[4] = {
-    "789cc553cd4ac34010de4a2d5eaabde8d53790a2878a072f8d82d04ab005294662dc4cedd2fda9d94d695fa1077d85be8c174f1e045fc7b469d24d688858ac03"
-    "cbecb7dfec7edf0c2c2a5c350b08a15d1486590a733958d3605516e75b281969beb0224fb5fa6d548cefe975af8b8c0557305221e00e83f8a62b18e10e57edf1",
-    "00900752d021b873a64b28b40983960eae67885d6a540c66d46c5fef01eeb77c86bc9e5c3aa43a88e7f1a0f58bb47e8b39f348477a1ee9ba486ff44bbd689e07"
-    "397a118f1d8a7d2a6c1706aa674bc27c4a787ffdbe231fa54c1f2123097fa2b0d4fb58536f90a997e4ef2eee8d33cb10d867c09590d6a91a0a5b0203a93cb06e",
-    "c4a350043b361343422dd31363c04ac41bdb4b16d4850bc199b456cff388e5cd73ef87fd65fdab32da41e7c1e77c7ffb9a976c4a6f72f8f2b949bd28fe4b6fdd"
-    "7fb99fa15749f1cd86f9dc616dc7e8d41adde3db46b55a1b9f683ecc0c1f914e9e0fa461ddc75fbfff0d75f2837d",
+    "789cc554cd4ec240101e0c122fa0271fc38327e38d803f244a4048345853eb76944df78774b7049ec217e140e23b78e6e6dd27b1505a96868a9188936c7667be"
+    "d97edf7cc91672b5eb1c0094208a4621da8be11a85eb605edf81e548e3b915fbc8e8df857c72cfec7b9def440a8d031d25c2e198dc7425a7c211ba3dec21f8a8",
+    "24eba33b439e29c336e5d83293fa34e3e706942453687aae749178ad8083df550b85cc4c123f1e8d79c19837bfc68f74a4fd48f7c57c835ff2c57e1eaee18b71"
+    "e230123069bbd8d35d5b511e302abccde78e751432754488a2e285e1826fb2215f2f936f19bf3f7ba89e5a5549028e424b659de8beb4157254da47eb463e494d",
+    "896373d9a7cc6af8728844cbe460fbcb0d15e9625853d66a3f8ff83a3ff77f385fd6bb2ac21ebc85c5d2e463d6b22d3eef7dfcb94dbe38fe8b6f5bef72e894ef"
+    "3ac7c165a37c71dba935af9a41bbee558cff73860e43f2b73ac0c84d1d7ffdfd2fe0fa8750",
     "" };
 
   c4_nameCaptureInfo = NULL;
@@ -9674,28 +9726,28 @@ const char* sf_c4_ver_1_get_post_codegen_info(void)
 {
   int i;
   const char* encStrCodegen [19] = {
-    "eNrtV81u20YQJgU5bYA2MIIAuQSokUt7bAC3aC9tbEpEhFixUcrO0V2TI3Gh5S67P7TUF8gphz5",
-    "Wj70VOeURivbQa2dJWpYoUrLlJnWL0qDo5X4z+83vLh2313fwuod3+sBx7uDzQ7xbTnFtlWN37i",
-    "7et51Py/FrFOImOSKSJMpZeXGSwHegBDOaCt7jQ1ELo3wIEniI2FRI3aRN0cQwyse+4aHVp17GN",
-    "IyDWBgW7aMsiQ45m6K21Ogj1NOhEkLtA0Q6lsKMYp+R0Yyx1OdeDOFYmWSVCQp0YFJLS/UN0zRl",
-    "0J1A2ONKE2SsLrkFmmjw9KTRTGupCi6AIkkZJbzW2pioAFJ0sIbjNMLfQ6PRqCosjInU+xCTDNQ",
-    "BHec6BYeqTqpw4oxyooWkhHUT5lnBZW5HDPn0RQRshUOQ274EMk4F5bo5/oGPlnY5OWPQgTMzat",
-    "YWwA/GBv+EwjnIRr8NPZGBJCM45I2L5g7pTvJozbJkGaZpAidE7oUYPwVRY/Zi5qiAYJxggBJNM",
-    "MiN7KmBpBm6t1GbSXo2M9eVjEmKYKt1sFxbN4NVUZhp80PuEcZUI2wg0gPIgOVaO0ST1bBCaz1O",
-    "KRoNBDrYpndzNRhOMfAlzBM8orXhyiqAvO+8wMayiAyN0iLxMHk7BwfL08uwHtcghySEui4gCVW",
-    "APsvd26wtosrGHoHISuf06sBFhqxDOWpoeOdcyDH6ZEUTuTTBRrQRmKgRxhIr4Vhh0ayC2Viuw4",
-    "UkjCGyDYYy6GPZILbGJ8q2tj2su4zqaQdUKGlaE1WDVYdtqGsTaprCMR9zcc59KZKg7PGFewEw2",
-    "4jklI/2sX/JqY+r14XC7mefO5f72UdX2M8u5KrPz+b0uDV6nLlndd27rUV8q7JuC/9ct5B7Oif3",
-    "cWWddkXO4ratzNbvH/z805ff/3H0584r75c369Z3l9Z38/+t3Nv29fb/e+X40UWjnRVOtpSvFvt",
-    "sjle7Rv/DOf3b5Vg93/O/GO6+fLab9X/8+ok68cXgxaBb+HkN360K34v3O7bjY5bl+SnDXlQeTO",
-    "yYmGK7tvq/muN7Z40/7pbvi+u3b28mv/O0Gsc6f7UW/NVywsli3v5z/B9vxn96W/g/uhJ/d4G/6",
-    "0yc28L/wUb8p38b/yJ/N5e/Wr+4X+kX9/Nz4Smxuw2chruneDw8fbLczzftj9eVc96z3L+F5/9+",
-    "eff2XeW809pQrn3D89X7krupfdc99902/Kr+71Tw27fYjpuex981/lfneufmT8rxN7NPYy+mLKr",
-    "5Siqn8ZNnWDf7H8jTvwCl6bfQ",
+    "eNrtV91u40QUtqPsikqwqlYrcbOIFTdwyUpFghvYNonZiGZb4bR7WU3HJ/GQ8YyZHzdBXHIJD8J",
+    "T8A5c7SVvAOIJOGO7aeLYSZuyS0FMNXHH850z3/mZM2PP7w88bA+wp4887z4+38Le8op2rxz7C7",
+    "143/Y+LMc/oZCwyTFRJNHe2iZIAl+DltwaJkVfjGQtjIkRKBAUsalUpkmbZonlTEwCK6jTp1/Gj",
+    "MZhLC2PDlCWREeCz1Bbas0x6ukyBdQEAJGJlbTjOOBkPGeszEUnBjrRNllnggYT2tTR0gPLDUs5",
+    "9KZA+0Ibgoz1FbfQEAMdM20001mqw0ugTFLOiKi1NiY6hBQdbOAkjfD3yBo0qgqjMVHmAGKSgT5",
+    "kk1ynFFDVyTROnDNBjFSM8F7CO05wldsxRz4DGQFf4xDkdqCATFLJhGmOfxigpT1Bzjl04dyOm7",
+    "WF8K11wT9lcAGq0W+jjsxAkTEcicZFc4f0pnm05lmyCjMsgVOi9inGT0PUmL2YOTokGCcYokQTD",
+    "HIj+3qoWIbubdRmk77LzE1bxiZFsPUmWK6tl8G6KMy1BVR0COe6ETaU6SFkwHOtXWLIelihtR6n",
+    "NYuGEh3s0rt5N1jBMPAlrCNFxGrDlVUAed15gYVlGUmtNjLpYPJ2Dw9Xp1dhfWFAjQiFuiqgCNO",
+    "APsvd26wtYtrFHoHIyuT06sBFhmxCeXpkRfdCqgn6ZE0RuTLBRbQRmOgxxhJ3wonGTbMO5mK5CU",
+    "cJjSFyBYZxGOC2QWyNT7Qrbfu47zJmZl3QVLG0JqoWdx2WoZ5LqFkKJ2Ii5IUIlEzCssYX7gXAb",
+    "CNKMDE+wPqlZgGuXhcKd5597F2dZ29f4zy7lKs+P1rQ49fo8Rae1XV3Wsv4VmXdFv75fiH3bEHu",
+    "nco67Yqcw+1i/z599d4PX/46/PnP338c/7Lzzab1/ZX1/fx/J/db+2bn/4Ny/Piy0M43TraSrw7",
+    "7fIFXu0b/uwv6d8ux/mo/+GS09/L5Xjb47rOn+jSQwxfDXuHnDXzvVfhevn/iKj5mWZ6fivaj8m",
+    "LixsQWx7XT/+kC3/sb/LFTvi/aH1/cTv7Js2oc6/zVWvJXy6PT5bz95/h/sB3/2V3h//ha/P0l/",
+    "r439e4K/0db8Z/9bfyL/N1e/nr14mGlXjzM74VnxJ02cEb3zvB6ePZ0tZ5vWx9vKue9Ybl/C8//",
+    "/fL67bvOfae1pVz7lverNyV3W/tueu+7a/h19d+r4HfvsB23vY+/bvwr72b35vfL8efzT+NOzHh",
+    "U85VUTuMnz6hu9j+Qp38BPQm4VA==",
     ""
   };
 
-  static char newstr [1301] = "";
+  static char newstr [1305] = "";
   newstr[0] = '\0';
   for (i = 0; i < 19; i++) {
     strcat(newstr, encStrCodegen[i]);
@@ -9708,10 +9760,10 @@ static void mdlSetWorkWidths_c4_ver_1(SimStruct *S)
 {
   const char* newstr = sf_c4_ver_1_get_post_codegen_info();
   sf_set_work_widths(S, newstr);
-  ssSetChecksum0(S,(133301568U));
-  ssSetChecksum1(S,(1614189001U));
-  ssSetChecksum2(S,(553079027U));
-  ssSetChecksum3(S,(3671147399U));
+  ssSetChecksum0(S,(500723836U));
+  ssSetChecksum1(S,(1423067012U));
+  ssSetChecksum2(S,(2364535465U));
+  ssSetChecksum3(S,(1779023719U));
 }
 
 static void mdlRTW_c4_ver_1(SimStruct *S)
